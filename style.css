@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url("chill.png");
+    background-size: 100%;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    font-family: tahoma;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: rgb(31, 31, 31);
+    border-radius: 5px;
+    font-size: 18px;
+    align-items: center;
+}
+
+label {
+    font-family: comic sans ms;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    float: left;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ddd;
+}
+
+.menu ul li a:hover {
+    display: block;
+    color: orange;
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 5px rgb(0, 0, 0);
+}
+
+.menu ul li .dropdown {
+    display: none;
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+    background: black;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+}
+
+.menu ul li:hover .dropdown li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 5px rgb(0, 0, 0);
+}
+
+.main{
+    background-color:rgba(255, 255, 255, 0.6); 
+    height: 880px;
+    width: 800px; 
+    color:black; 
+    margin: 20px auto;
+    padding:15px; 
+    margin-top: 120px;  
+    border-radius: 10px;
+}
+
+.tittle {
+    font-family: comic sans ms;
+    font-size: 50px;
+    text-align: center;
+}
+
+.isi {
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+.link {
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+.bio {
+    background-color:rgba(255, 255, 255, 0.6); 
+    height: 500px;
+    width: 800px; 
+    color:black; 
+    margin: 20px auto;
+    padding:15px; 
+    margin-top: 120px;  
+    border-radius: 10px;
+}
+
+.footer {
+    font-family: tahoma;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: rgb(31, 31, 31);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.under {
+    font-family: comic sans ms;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    float: right;
+}
